@@ -1,0 +1,32 @@
+@media screen and (min-width: 320px) and (max-width: 360px) {
+	.container{ padding-left: 10px; }
+	.portfolio-list{
+		padding: 100px 20px 64px;
+		&__01,
+		&__02,
+		&__03{
+			padding: 80px 0 0;
+			background-position: 70% center;
+		}
+		.portfolio-block__title,
+		.portfolio-block__dscrpt,
+		.portfolio-block__subdscrpt{ margin-left: 10px; }
+	}
+}
+@media screen and (min-width: 361px) and (max-width: 479px) {
+	.container{ padding-left: 10px; }
+	.portfolio-list{
+		padding: 100px 20px 64px;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.container{ padding-left: 10px; }
+	.portfolio-list{
+		padding: 100px 20px 64px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1359px) {
+	.portfolio-list{
+		padding: 64px 25px 64px 100px;
+	}
+}

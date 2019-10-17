@@ -1,0 +1,31 @@
+{
+  "plugins": [
+    "stylelint-selector-bem-pattern"
+  ],
+  "rules": {
+    "block-no-empty": true,
+    "rule-empty-line-before": "never",
+    "property-no-unknown": true,
+    "property-case": "lower",
+    "selector-type-case": "lower",
+    "no-unknown-animations": true,
+    "indentation": "tab",
+    "length-zero-no-unit": true,
+    "selector-max-compound-selectors": 7,
+    "no-duplicate-selectors": true,
+    "shorthand-property-no-redundant-values": true,
+    "max-nesting-depth": 7,
+    "no-descending-specificity": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "declaration-block-no-duplicate-properties": [
+      true,
+      {
+        "ignore": ["consecutive-duplicates"]
+      }
+    ],
+    "plugin/selector-bem-pattern": {
+      "componentName": "[a-zA-Z0-9]+$",
+      "componentSelectors": "^(?:\\.(?:{componentName}|is[-](?:[a-zA-Z0-9-_]*))[ ]?(?:__[a-zA-Z0-9-_]+)?(?:_[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*){0,2}[ ]?)+$"
+    }
+  }
+}

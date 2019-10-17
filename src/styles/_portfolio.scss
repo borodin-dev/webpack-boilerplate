@@ -1,0 +1,53 @@
+/* portfolio list block start */
+.portfolio-list{
+	padding-top: 64px;
+	&__01{
+		background: url("../img/img_portfolio.png") no-repeat;
+		background-size: cover;
+		padding: 139px 0 0 105px;
+	}
+	&__02{
+		background: url("../img/img_portfolio-02.png") no-repeat;
+		background-size: cover;
+		padding: 139px 0 0 105px;
+	}
+	&__03{
+		background: url("../img/img_portfolio-02.png") no-repeat;
+		background-size: cover;
+		padding: 139px 0 0 105px;
+	}
+	&__04{
+		background: url("../img/img_portfolio-02.png") no-repeat;
+		background-size: cover;
+		padding: 139px 0 0 105px;
+	}
+	.portfolio-block__subdscrpt{ margin-bottom: 48px; }
+	&__link{
+		display: flex;
+		align-items: center;
+		color: $primary-color;
+		margin-bottom: 48px;
+		font: 1rem $RalewayBold;
+		line-height: 19px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		&:hover{ color: #1AB0FF; }
+		img{
+			padding-right: 16px;
+		}
+	}
+}
+.grayscale-hover{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index:0;
+	&:hover {
+		filter:none;
+		transition: 0.7s;
+	}
+}
+/* portfolio list block end */
+

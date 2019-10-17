@@ -1,0 +1,82 @@
+@media screen and (min-width: 320px) and (max-width: 360px) {
+	.aboutus-header{
+		text-align: center;
+		.clip-text{ font-size: 5.25rem; }
+	}
+	.aboutus-dscrpt{ padding: 0; }
+	.aboutus-subdscrpt{ padding: 0 25px; }
+	.wecan{
+		padding: 70px 10px;
+		text-align: center;
+		.mb-120{ margin-bottom: 40px; }
+	}
+	.wecan-job__padding { padding: 0; }
+	.certificates-block{
+		padding: 120px  15px;
+		img{ margin-bottom: 25px; }
+		.mb-120{ margin-bottom: 40px; }
+	}
+}
+@media screen and (min-width: 361px) and (max-width: 479px) {
+	.aboutus-header{
+		text-align: center;
+		.clip-text{
+			font-size: 6.25rem;
+		}
+	}
+	.aboutus-dscrpt{ padding: 0; }
+	.aboutus-subdscrpt{ padding: 0 25px; }
+	.wecan{
+		padding: 120px 50px;
+		.mb-120{ margin-bottom: 40px; }
+	}
+	.wecan-job__padding { padding: 0 70px 0 15px; }
+	.certificates-block{
+		padding: 120px  50px;
+		img{ margin-bottom: 25px; }
+		.mb-120{ margin-bottom: 40px; }
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.aboutus-header{
+		text-align: center;
+		.clip-text{
+			font-size: 7.25rem;
+		}
+	}
+	.aboutus-dscrpt{ padding: 0; }
+	.aboutus-subdscrpt{ padding: 0 25px; }
+	.wecan{ padding: 120px 50px; }
+	.wecan-job__padding { padding: 0 70px 0 15px; }
+	.certificates-block{
+		padding: 120px  50px;
+		img{ margin-bottom: 25px; }
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.aboutus-header{
+		text-align: center;
+		padding: 0 0 120px 80px;
+		.clip-text{
+			font-size: 10.25rem;
+		}
+	}
+	.aboutus-dscrpt{ padding: 0; }
+	.aboutus-subdscrpt{ padding: 0 45px; }
+	.wecan{
+		.mb-120{ margin-bottom: 40px; }
+	}
+	.certificates-block{
+		.mb-120{ margin-bottom: 40px; }
+	}
+	.wecan-job__padding { padding: 0 70px 0 15px; }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.aboutus-header{ padding: 0 0 120px 80px; }
+	.aboutus-dscrpt{ padding: 0 25px; }
+	.aboutus-subdscrpt{ padding: 0 85px; }
+	.wecan-job__padding { padding: 0 70px 0 15px; }
+}
+@media screen and (min-width: 1200px) and (max-width: 1359px) {
+
+}

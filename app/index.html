@@ -1,10 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Cloud Engine</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-
+    <!--  Sidebar menu -->
+    <div class="sticky-top flex-grow-1 w-79">
+        <div class="nav position-absolute flex-sm-column sidebar-left__menu">
+            <a href="#" class="nav-link sidebar-left__logo">
+                <img src="/img/logo-sm.svg" class="logo-sm" alt="Logo icon"/>
+            </a>
+            <div class="hamburger-sm">
+                <input type="checkbox" id="menuToggle" name="openMenu" />
+                <label for="menuToggle" class="menuOpen">
+                    <span class="open"></span>
+                </label>
+                <div class="menu menuEffects">
+                    <div class="row">
+                        <div class="w-70">
+                            <div class="open-border-menu"></div>
+                            <ul class="menu-list">
+                                <li><a href="portfolio.html">Портфолио</a></li>
+                                <li><a href="services.html">Услуги</a></li>
+                                <li><a href="aboutus.html">О Компании</a></li>
+                                <li><a href="contact.html">Контакты</a></li>
+                                <li class="menu-list__download">
+                                    <img src="/img/icons/bookmark.svg" class="bookmark-icon" alt="Bookmark icon">
+                                    <a href="#" class="bookmark-title">Скачать презентацию</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-30 menu-contact">
+                            <img src="/img/logo-lg.svg" class="logo-lg" alt="Logo menu">
+                            <div>
+                                <div class="menu-contact__kyiv">
+                                    <p>Киев</p>
+                                    <a class="list-tel" href="tel:+380993444323">+38 099 344 43 23</a>
+                                </div>
+                                <div class="menu-contact__dnepr">
+                                    <p>Днепр</p>
+                                    <a class="list-tel" href="tel:+380993444323">+38 099 344 43 23</a>
+                                </div>
+                            </div>
+                            <ul class="menu-contact__list">
+                                <li>
+                                    <img src="/img/icons/bookmark.svg" class="bookmark-icon" alt="Bookmark icon">
+                                    <a class="list-tel" href="tel:#">Заказать звонок</a>
+                                </li>
+                                <li>
+                                    <img src="/img/icons/bookmark.svg" class="bookmark-icon" alt="Bookmark icon">
+                                    <a class="list-mail" href="mailto:info@cloudengine.project">info@cloudengine.project</a>
+                                </li>
+                                <li>
+                                    <img src="/img/icons/send.svg" class="send-icon" alt="Send icon">
+                                    <a class="list-request" href="#">Отправить заявку</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="nav-link position-absolute sidebar-left__messenger d-none d-md-block d-lg-block">
+                <img src="/img/icons/messenger.svg" alt="Messenger icon">
+            </a>
+        </div>
+    </div>
+    <!-- /.Sidebar menu -->
+    <!-- Header Block -->
+    <div class="container-fluid header-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-lg-7 header-block__title">
+                    <h1>Комплекс услуг</h1>
+                </div>
+                <div class="col col-lg-4 header-block__content">
+                    <img src="/img/logo-lg.svg" alt="Logo icon">
+                    <p class="header-block__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более...</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-7 header-block__action order-12">
+                    <a href="#" class="header-block__slide01 active-link">01</a>
+                    <a href="#" class="header-block__slide02">02</a>
+                    <a href="#" class="header-block__arrow">
+                        <img src="/img/next-arrow.svg" alt="Next arrow">
+                    </a>
+                </div>
+                <div class="col-lg-4 header-block__portfolio order-2">
+                    <a href="portfolio.html">Портфолио</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Header Block -->
+    <!-- Marketing Block -->
+    <div class="marketing-block">
+        <div class="container">
+            <div class="row no-gutters flex-lg-row flex-md-column">
+                <div class="col-lg-7 col-md-4 marketing-block__title pl-58">
+                    <h2>СТРАТЕГИЧЕСКИЙ ПОДХОД К DIGITAL- МАРКЕТИНГУ</h2>
+                </div>
+                <div class="col-lg-5 col-md-8 marketing-block__content">
+                    <ul class="content-list">
+                        <li class="content-list__node">
+                            <p>performance- <br>маркетинг</p>
+                            <span>+</span>
+                        </li>
+                        <li class="content-list__node">
+                            <p>сайты и мобильные приложения</p>
+                            <span>+</span>
+                        </li>
+                        <li class="content-list__node">
+                            <p>Веб-аналитика и иследования</p>
+                            <span>+</span>
+                        </li>
+                        <li class="content-list__node">
+                            <p>Сопровождение проектов и хостинг</p>
+                            <span>+</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Marketing Block -->
+    <!-- Portfolio Block -->
+    <div class="portfolio-block">
+        <div class="container-fluid portfolio-block__01">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-lg-5 ml-45">
+                        <h2 class="portfolio-block__title">Exrates</h2>
+                        <p class="portfolio-block__dscrpt">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более...</p>
+                        <div class="portfolio-block__subdscrpt">
+                            <p>01 аналитика 02 проектирование 03 дизайн</p>
+                            <p>04 разработка 05 сложная интеграция</p>
+                            <p>06 сопровождение 07 хостинг</p>
+                        </div>
+                        <a href="portfolio.html" class="portfolio-block__link">
+                            <img src="/img/icons/chevron-right.svg" alt="Link icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid portfolio-block__02">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-lg-5 ml-45">
+                        <h2 class="portfolio-block__title">Caer Sidi</h2>
+                        <p class="portfolio-block__dscrpt">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более...</p>
+                        <div class="portfolio-block__subdscrpt">
+                            <p>01 аналитика 02 проектирование 03 дизайн</p>
+                            <p>04 разработка 05 сложная интеграция</p>
+                            <p>06 сопровождение 07 хостинг</p>
+                        </div>
+                        <a href="portfolio.html" class="portfolio-block__link">
+                            <img src="/img/icons/chevron-right.svg" alt="Link icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid portfolio-block__03">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-lg-5 ml-45">
+                        <h2 class="portfolio-block__title">Exrates</h2>
+                        <p class="portfolio-block__dscrpt">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более...</p>
+                        <div class="portfolio-block__subdscrpt">
+                            <p>01 аналитика 02 проектирование 03 дизайн</p>
+                            <p>04 разработка 05 сложная интеграция</p>
+                            <p>06 сопровождение 07 хостинг</p>
+                        </div>
+                        <a href="portfolio.html" class="portfolio-block__link">
+                            <img src="/img/icons/chevron-right.svg" alt="Link icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Portfolio Block -->
+    <!-- Request Block -->
+    <div class="dark-text request-block">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-8">
+                    <div class="request-block__content">
+                        <h2 class="request-block__title">Оставьте заявку</h2>
+                        <p class="request-block__subtitle">Оставьте заявку и в течение 24 часов мы подготовим вам коммерческое предложение со сроками и детализированной оценкой бюджета.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-12 col-md-11">
+                    <div class="request-block__form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="inputBox">
+                                        <label for="yourName">
+                                            <input type="text" name="name" id="yourName" placeholder="Ваше имя" class="input">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="inputBox">
+                                        <label for="yourSurname">
+                                            <input type="text" name="surname" id="yourSurname" placeholder="Ваша фамилия" class="input">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <div class="inputBox">
+                                        <label for="yourMessage">
+                                            <textarea class="input" id="yourMessage" placeholder="Ваше сообщение" rows="1"></textarea>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 privacy-item">
+                                    <img src="/img/icons/ok.svg" alt="Ok icon">
+                                    <p>Настоящим подтверждаю, что я согласен на <span>обработку своих персональных данных.</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <input type="submit" name="send" class="form-sendbtn" value="Отправить">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Request Block -->
+    <!-- Footer Block -->
+    <div class="dark-text footer-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 pad-t39-b36">
+                    <a href="#" class="footer-social"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="footer-social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer-social"><i class="fab fa-twitch"></i></a>
+                    <a href="#" class="footer-social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer-social"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="footer-social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer-social"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="footer-year">@ Cloud Engine 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Footer Block -->
 </body>
 </html>
+

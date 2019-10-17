@@ -1,0 +1,80 @@
+/* About Us Header Block start */
+.aboutus-header{
+	padding-bottom: 120px;
+	.clip-text {
+		font: 15.25rem $RalewayBold;
+	}
+	.clip-text_one {
+		background-image: url('../img/aboutus.png');
+		background-repeat: no-repeat;
+		background-position: left center;
+	}
+}
+.aboutus-dscrpt{
+	font: 1.25rem $RalewayRegular; /* or 30px */
+	line-height: 150%;
+	text-align: center;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #FFFFFF;
+	padding: 0 125px;
+	margin-bottom: 35px;
+}
+.aboutus-subdscrpt{
+	font: italic 0.875rem $RalewayLight; /* or 21px */
+	line-height: 150%;
+	text-align: center;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: $light-gray-color;
+	padding: 0 245px;
+}
+/* About Us Header Block end */
+/* What We Can Block start */
+.wecan{
+	padding: 120px 0 120px 100px;
+	.mb-120{ margin-bottom: 120px; }
+	&-title{
+		font: 2.25rem $RalewayBold; /* or 43px */
+		line-height: 120%;
+		color: #FFFFFF;
+	}
+	&-subtitle{
+		font: 0.875rem $RalewayRegular; /* or 21px */
+		line-height: 150%;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #FFFFFF;
+	}
+	&-job__padding{ padding: 0 70px 20px 15px; }
+	&-job__title{
+		font: 1rem $RalewayRegular; /* or 19px */
+		line-height: 120%;
+		color: #FFFFFF;
+		border-top: 1px solid #FFFFFF;
+		padding-top: 16px;
+	}
+}
+/* What We Can Block end */
+/* Certificate Block start */
+.certificates-block{
+	padding: 120px 0 120px 100px;
+	.mb-120{ margin-bottom: 120px; }
+	&__title{
+		font: 2.25rem $RalewayBold; /* or 43px */
+		line-height: 120%;
+		color: #FFFFFF;
+	}
+	&__subtitle{
+		font: 0.875rem $RalewayRegular; /* or 21px */
+		line-height: 150%;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #FFFFFF;
+	}
+	&-job__padding{ padding: 0 70px 20px 15px; }
+	&-job__title{
+		font: 1rem $RalewayRegular; /* or 19px */
+		line-height: 120%;
+		color: #FFFFFF;
+		border-top: 1px solid #FFFFFF;
+		padding-top: 16px;
+	}
+}
+/* Certificate Block end */

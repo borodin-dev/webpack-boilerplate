@@ -1,0 +1,40 @@
+@import "fonts";
+
+/***** COLORS *****/
+$primary-color: #1AA0ED;
+$dark-bg-color: #111218;
+$base-overlay-color: #222329;
+$dark-gray-color: #2B2F37;
+$base-gray-color: #7D7D88;
+$gray-text-color: #798694;
+$light-gray-color: #AFBDCC;
+$bright-green-color: #C3FC58;
+
+/***** FONTS *****/
+$primary_size: 16px;
+$primary-line-height: 22px;
+$RalewayRegular: Raleway-Regular;
+$RalewayBold: Raleway-Bold;
+$RalewayMedium: Raleway-Medium;
+$RalewayLight: Raleway-Light;
+
+//
+//@mixin filter-format{
+//  display: inline-flex;
+//  padding: 5px 10px 5px 5px;
+//  align-items: center;
+//}
+//@mixin filter-bg{
+//  background: #0082C2;
+//  border-radius: 4px;
+//}
+//@mixin filter-title{
+//  font:500 1.25rem $RobotoRegular;
+//  color: #FFFFFF;
+//  margin: 0 0 0 5px;
+//}
+//@mixin d-flex-center{
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//}

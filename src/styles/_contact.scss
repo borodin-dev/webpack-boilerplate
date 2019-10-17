@@ -1,0 +1,62 @@
+/* contact header block start */
+.contact-header{
+	margin-bottom: 110px;
+	&__title{
+		padding-top: 120px;
+		font: 6rem $RalewayBold; /* identical to box height */
+		line-height: 113px;
+		text-transform: uppercase;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #FFFFFF;
+		margin-bottom: 56px;
+	}
+	&__subtitle{
+		margin-bottom: 50px;
+		p{
+			margin: 0 0 20px;
+			font: 1.5rem $RalewayBold; /* or 29px */
+			line-height: 120%;
+			display: flex;
+			align-items: center;
+			color: $light-gray-color;
+		}
+		a,span{
+			font: 1rem $RalewayRegular;
+			line-height: 19px;
+			display: flex;
+			align-items: center;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #FFFFFF;
+		}
+		a:hover{ color: #1AB0FF; }
+	}
+	&__btn{
+		padding-top: 60px;
+		.send-btn{
+			width: 400px;
+			background: #1AA0ED;
+			border-radius: 3px;
+			font: 0.8125rem $RalewayBold;
+			line-height: 15px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			letter-spacing: 0.03em;
+			text-transform: uppercase;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #FFFFFF;
+			padding: 20px 32px;
+			&:hover{ background-color: #1AB0FF }
+		}
+	}
+	&__map{
+		padding-top: 36px;
+		position: initial;
+		right: 0;
+		img{
+			position: absolute;
+			right: 0;
+		}
+	}
+}
+/* contact header block end */

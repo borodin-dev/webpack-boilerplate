@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# production
+dist/
+.idea/
+.firebase
+
+# misc
+.DS_Store
+*/.DS_Store
+.DS_Store?
+.Trashes
+ehthumbs.db
+Thumbs.db
+npm-debug.log
+yarn-error.log
+yarn.lock
+.yarnclean
+.vscode
+git

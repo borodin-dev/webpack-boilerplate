@@ -1,4 +1,287 @@
-div{
-	background: aqua;
-	width: 100px;height: 300px;
+@import "~bootstrap/scss/bootstrap";
+@import "variables";
+@import "custom";
+
+/* header block start */
+.header-block{
+	background-image: url("../img/bg_main.png");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-bottom: 344px;
+	/* row 1 */
+	&__title{
+		margin: 320px 0 0;
+		h1{
+			font: 6rem $RalewayBold;
+			line-height: 113px;
+			text-transform: uppercase;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #FFFFFF;
+		}
+	}
+	&__content{ margin: 259px 0 0; }
+	&__text{
+		font: 1rem $RalewayRegular;
+		line-height: 150%;
+		color: $light-gray-color;
+		margin: 28px 0;
+		width: 295px;
+	}
+	/* row 2 */
+	&__action{
+		a{
+			margin-right: 20px;
+			display: inline;
+			color: #ffffff;
+			font: 1rem $RalewayBold;
+			line-height: 100%;
+			&:hover{ color: #1AB0FF; }
+		}
+		.active-link{
+			cursor: default;
+			text-decoration: none;
+			color: $primary-color;
+			&:hover{ color: $primary-color; }
+		}
+		.header-block__arrow{ margin-left: 19px; }
+	}
+	&__portfolio a{
+		font: 1rem $RalewayBold;
+		line-height: 100%;
+		display: flex;
+		align-items: center;
+		color: $primary-color;
+		&:hover{ color: #1AB0FF; }
+	}
+	.order-12,
+	.order-2{
+		order: unset;
+	}
 }
+/* header block end */
+/* marketing block start */
+.marketing-block{
+	&__title {
+		margin: 160px 0;
+		h2 {
+			font: 3.5rem $RalewayBold; /* or 67px */
+			line-height: 120%;
+			color: $dark-bg-color;
+		}
+	}
+	&__content{
+		margin: 116px 0;
+		.content-list{
+			list-style: none;
+			&__node{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				p{
+					font: 1.5rem $RalewayBold; /* or 29px */
+					line-height: 120%;
+					color: $dark-bg-color;
+					width: 295px;
+				}
+				span{
+					font: 600 1.5rem $RalewayRegular; /* or 29px */
+					line-height: 120%;
+					/* blue_active */
+					color: $primary-color;
+				}
+			}
+		}
+	}
+}
+/* marketing block end */
+/* portfolio block start */
+.portfolio-block{
+	margin-bottom: 120px;
+	&__01{
+		background: url("../img/img_portfolio.png") no-repeat;
+		background-size: cover;
+		padding: 92px 0 97px;
+	}
+	&__02{
+		background: url("../img/img_portfolio-02.png") no-repeat;
+		background-size: cover;
+		padding: 92px 0 97px;
+	}
+	&__03{
+		background: url("../img/img_portfolio-03.png") no-repeat;
+		background-size: cover;
+		padding: 92px 0 97px;
+	}
+	&__title{
+		font: 2.25rem $RalewayBold; /* or 43px */
+		line-height: 120%;
+		color: #FFFFFF;
+		margin-bottom: 36px;
+	}
+	&__dscrpt{
+		width: 87%;
+		font: 1rem $RalewayRegular; /* or 24px */
+		line-height: 150%;
+		color: #FFFFFF;
+		margin-bottom: 36px;
+	}
+	&__subdscrpt{
+		margin-bottom: 32px;
+		p{
+			margin: 0;
+			font: 0.75rem $RalewayRegular; /* or 18px */
+			line-height: 150%;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: $light-gray-color;
+		}
+	}
+	&__link{
+		border-radius: 50%;
+		border: 1px solid #52535C;
+		box-sizing: border-box;
+		padding: 10px;
+		line-height: initial;
+		&:hover{
+			background: #52535C;
+		}
+		img{
+			margin-bottom: 3px;
+		}
+	}
+}
+/* portfolio block end */
+/* request block start */
+.dark-text .request-block{
+	margin: 120px 0 0;
+	&__title{
+		font: 2.25rem $RalewayBold; /* or 43px */
+		line-height: 120%;
+		color: $dark-bg-color;
+	}
+	&__subtitle{
+		margin: 28px 0 72px;
+		font: 1.25rem $RalewayRegular; /* or 30px */
+		line-height: 150%;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: $dark-bg-color;
+	}
+	&__form{
+		padding-bottom: 131px;
+		border-bottom: 1px solid $light-gray-color;
+		.inputBox{
+			position: relative;
+			box-sizing: border-box;
+			margin-bottom: 50px;
+		}
+		.inputBox .inputText{
+			position: absolute;
+			font-size: 24px;
+			line-height: 50px;
+			transition: .5s;
+			opacity: .5;
+		}
+		.inputBox label{
+			display: initial;
+			margin-bottom: 0;
+		}
+		.inputBox label .input{
+			position: relative;
+			width: 100%;
+			height: 50px;
+			background: transparent;
+			border: none;
+			outline: none;
+			border-bottom: 1px solid rgba(0,0,0,.5);
+			font: 500 1rem $RalewayRegular; /* or 24px */
+			line-height: 150%;
+			display: flex;
+			align-items: center;
+			color: $dark-bg-color;
+			&::placeholder{ color: $light-gray-color; }
+			&:visited,
+			&:focus{ border-bottom: 1px solid $primary-color; }
+		}
+		.focus .inputText{
+			transform: translateY(-30px);
+			font-size: 18px;
+			opacity: 1;
+			color: #00bcd4;
+		}
+		textarea{ resize: none; }
+		.button{
+			width: 100%;
+			height: 50px;
+			border: none;
+			outline: none;
+			background: #03A9F4;
+			color: #fff;
+		}
+		.privacy-item{
+			display: flex;
+			margin: 57px 0;
+			padding: 0 0 0 25px;
+			p{
+				margin: 0 0 0 28px;
+				font: 1rem $RalewayRegular; /* identical to box height, or 24px */
+				line-height: 150%;
+				color: $dark-bg-color;
+				span{
+					text-decoration: underline;
+					cursor: pointer;
+				}
+			}
+		}
+		.form-sendbtn{
+			background: $primary-color;
+			border-radius: 3px;
+			border: none;
+			font: 0.8125rem $RalewayBold;
+			line-height: 15px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			letter-spacing: 0.03em;
+			text-transform: uppercase;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #FFFFFF;
+			padding: 16px 32px;
+			&:hover{
+				background: #1AB0FF;
+			}
+		}
+	}
+}
+/* request block end */
+/* footer block start */
+.dark-text.footer-block{
+	text-align: center;
+	padding: 0 0 36px;
+	.pad-t39-b36{
+		padding-top: 39px;
+		padding-bottom: 36px;
+	}
+	.footer-social{
+		color: $dark-bg-color;
+		margin-right: 24px;
+		&:hover{ color: $primary-color; }
+	}
+	.footer-year{
+		font: 0.875rem $RalewayRegular; /* identical to box height, or 21px */
+		line-height: 150%;
+		text-align: center;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: $light-gray-color;
+		margin: 0;
+	}
+}
+/* footer block end  */
+@import "portfolio";
+@import "services";
+@import "aboutus";
+@import "contact";
+@import "responsive";
+@import "portfolioResponsive";
+@import "serviceResponsive";
+@import "aboutusResponsive";
+@import "contactResponsive";

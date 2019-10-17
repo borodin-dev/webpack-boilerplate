@@ -1,0 +1,26 @@
+@media screen and (min-width: 320px) and (max-width: 360px) {
+
+}
+@media screen and (min-width: 361px) and (max-width: 479px) {
+
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.container{ padding-left: 10px; }
+	.service-content{ margin: 0 40px; }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.service-content{
+		display: flex;
+		align-items: baseline;
+		margin: 0 25px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.service-content{
+		display: flex;
+		align-items: baseline;
+	}
+}
+@media screen and (min-width: 1200px) and (max-width: 1359px) {
+
+}
