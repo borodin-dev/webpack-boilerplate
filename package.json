@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borodin-dev/webpack-boilerplate.git"
+    "url": "git+https://github.com/borodin-dev/CloudEngine.git"
   },
   "keywords": [],
-  "author": "Ed Borodin(B-Dev)",
+  "author": "Ed Borodin(NEASoft)",
   "license": "MIT",
-  "homepage": "www.b-dev.wpteam.dp.ua",
+  "homepage": "www.neasoft.wpteam.dp.ua",
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
